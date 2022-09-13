@@ -32,7 +32,7 @@ function staticLoadPlaces() {
 
 var models = [
     {
-        url: './assets/coins/scene.gltf',
+        url: './assets/coin/scene.gltf',
         scale: '2.0 2.0 2.0',
         rotation: '0 180 0',
         // info: 'Articuno, Lv. 80, HP 100/100',
