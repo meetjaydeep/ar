@@ -17,22 +17,32 @@ function staticLoadPlaces() {
                 // lng: <your-longitude>,
             },
         },
+        {
+            name: 'Outside',
+            location: {
+                lat: 18.4543685,
+                lng: 73.7876579
+                // lat: <your-latitude>,
+                // lng: <your-longitude>,
+            },
+        },
+        
     ];
 }
 
 var models = [
     {
-        url: './assets/magnemite/scene.gltf',
-        // scale: '0.5 0.5 0.5',
-        info: 'Magnemite, Lv. 5, HP 10/10',
+        url: './assets/coins/scene.gltf',
+        scale: '2.0 2.0 2.0',
         rotation: '0 180 0',
+        // info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
-        url: './assets/coins/scene.gltf',
-        // scale: '0.2 0.2 0.2',
+        url: '',
+        // scale: '0.5 0.5 0.5',
+        info: 'Hurray!!! You earned Fit Coins',
         rotation: '0 180 0',
-        info: 'Articuno, Lv. 80, HP 100/100',
-    }
+    },    
 ];
 
 var modelIndex = 0;
