@@ -4,6 +4,12 @@ window.onload = () => {
 
     let places = staticLoadPlaces();
     renderPlaces(places);
+
+    this.el.addEventListener('click', function (e) {
+        console.log("event="+e.detail.name); 
+        console.log("eventobject="+e); 
+        
+      });
 };
 
 function staticLoadPlaces() {
@@ -24,13 +30,13 @@ function staticLoadPlaces() {
                 lng: 73.7875562             
             },            
         },
-        // {
-        //     name: 'Tushar',
-        //     location: {
-        //         lat: 18.4543907,
-        //         lng: 73.7875562             
-        //     },
-        // },                
+        {
+            name: 'Tushar',
+            location: {
+                lat: 18.535635705634718,
+                lng: 73.94898885994299              
+            },
+        },        
     ];
 }
 
@@ -72,6 +78,8 @@ var setModel = function (model, entity) {
 function renderPlaces(places) {
     let scene = document.querySelector('a-scene');
 
+   
+
     places.forEach((place) => {
         let latitude = place.location.lat;
         let longitude = place.location.lng;
@@ -99,4 +107,6 @@ function renderPlaces(places) {
 
         scene.appendChild(model);
     });
+
+    
 }
