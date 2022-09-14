@@ -38,7 +38,7 @@ var models = [
         // info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
-        url: '',
+        url: './assets/magnemite/scene.gltf',
         // scale: '0.5 0.5 0.5',
         info: 'Hurray!!! You earned Fit Coins',
         rotation: '0 180 0',
@@ -81,9 +81,12 @@ function renderPlaces(places) {
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
             var entity = document.querySelector('[gps-entity-place]');
-            modelIndex++;
-            var newIndex = modelIndex % models.length;
-            setModel(models[newIndex], entity);
+            // entity.setAttribute('visible', 'false');
+            entity.removeAttribute('gltf-model');
+            // modelIndex++;
+            // var newIndex = modelIndex % models.length;
+            
+            // setModel(models[newIndex], entity);
         });
 
         scene.appendChild(model);
