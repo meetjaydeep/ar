@@ -31,6 +31,7 @@ function staticLoadPlaces() {
             location: {
                 lat: 18.4543907,
                 lng: 73.7875562             
+                // 18.4543803823649,73.78771327884505
             },            
         },
         {
@@ -45,7 +46,7 @@ function staticLoadPlaces() {
 
 var models = [
     {
-        url: './assets/coin/scene.gltf',
+        url: './models/stylized_coin/scene.gltf',
         scale: '0.3 0.3 0.3',
         // rotation: '0 180 0',
         info: '',
