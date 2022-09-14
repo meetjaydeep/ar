@@ -32,8 +32,8 @@ var models = [
         url: './models/coins/scene.gltf',
         scale: '5 5 5',
         // rotation: '0 180 0',
-        position: '0 0 0',
-        info: 'v2',
+        position: '-50 0 0',
+        info: 'v3',
     },   
 ];
 
@@ -76,9 +76,10 @@ function renderPlaces(places) {
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
             var entity = document.querySelector('[gltf-model]');
             entity.setAttribute('visible', false);
+            entity.removeAttribute('gltf-model');
 
             const div = document.querySelector('.instructions');
-            div.innerText = 'Hurray!!! You earned Fit Coins';
+            div.innerText = 'Hurray!!! You earned 10 Fit Coins';
 
             // entity.removeAttribute('gltf-model');
             // modelIndex++;
