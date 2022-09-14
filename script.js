@@ -47,7 +47,7 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './models/stylized_coin/scene.gltf',
-        scale: '2.3 2.3 2.3',
+        // scale: '2.3 2.3 2.3',
         // rotation: '0 180 0',
         info: '',
     },
