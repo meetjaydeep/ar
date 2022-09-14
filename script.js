@@ -29,8 +29,8 @@ function staticLoadPlaces() {
         {
             name: 'Outside',
             location: {
-                lat: 18.4543907,
-                lng: 73.7875562             
+                lat: 18.4543803823649,
+                lng: 73.78771327884505             
                 // 18.4543803823649,73.78771327884505
             },            
         },
@@ -101,11 +101,6 @@ function renderPlaces(places) {
 
             const div = document.querySelector('.instructions');
             div.innerText = 'Hurray!!! You earned Fit Coins';
-
-            
-
-            var text = document.querySelector('[look-at]');
-            text.setAttribute('visible', true);
 
             // entity.removeAttribute('gltf-model');
             // modelIndex++;
