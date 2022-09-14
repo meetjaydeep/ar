@@ -81,8 +81,12 @@ function renderPlaces(places) {
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
             var entity = document.querySelector('[gps-entity-place]');
-            // entity.setAttribute('visible', 'false');
-            entity.removeAttribute('gltf-model');
+            entity.setAttribute('visible', false);
+
+            const div = document.querySelector('.instructions');
+            div.innerText = 'Hurray!!! You earned Fit Coins';
+
+            // entity.removeAttribute('gltf-model');
             // modelIndex++;
             // var newIndex = modelIndex % models.length;
             
