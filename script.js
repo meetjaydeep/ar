@@ -3,16 +3,7 @@ window.onload = () => {
     button.innerText = '﹖';
 
     let places = staticLoadPlaces();
-    renderPlaces(places);
-
-    this.el.addEventListener('click', function (e) {
-      alert('clicked');
-        
-      });
-
-      this.el.addEventListener("click", () => {
-        alert('clicked1');
-    });
+    renderPlaces(places);   
 };
 
 function staticLoadPlaces() {
@@ -50,14 +41,8 @@ var models = [
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         // position: '0 3 0',
-        info: 'T2',
-    },
-    // {
-    //     url: './assets/magnemite/scene.gltf',
-    //     // scale: '0.5 0.5 0.5',
-    //     info: 'Hurray!!! You earned Fit Coins',
-    //     rotation: '0 180 0',
-    // },    
+        info: 'v1',
+    },   
 ];
 
 var modelIndex = 0;
