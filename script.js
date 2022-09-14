@@ -21,28 +21,32 @@ function staticLoadPlaces() {
             name: 'Outside',
             location: {
                 lat: 18.4543907,
-                lng: 73.7875562
-                // lat: <your-latitude>, ,
-                // lng: <your-longitude>,
-            },
+                lng: 73.7875562             
+            },            
         },
-        
+        // {
+        //     name: 'Tushar',
+        //     location: {
+        //         lat: 18.4543907,
+        //         lng: 73.7875562             
+        //     },
+        // },                
     ];
 }
 
 var models = [
     {
         url: './assets/coin/scene.gltf',
-        scale: '0.5 0.5 0.5',
-        rotation: '0 180 0',
+        scale: '0.3 0.3 0.3',
+        // rotation: '0 180 0',
         info: '',
     },
-    {
-        url: './assets/magnemite/scene.gltf',
-        // scale: '0.5 0.5 0.5',
-        info: 'Hurray!!! You earned Fit Coins',
-        rotation: '0 180 0',
-    },    
+    // {
+    //     url: './assets/magnemite/scene.gltf',
+    //     // scale: '0.5 0.5 0.5',
+    //     info: 'Hurray!!! You earned Fit Coins',
+    //     rotation: '0 180 0',
+    // },    
 ];
 
 var modelIndex = 0;
