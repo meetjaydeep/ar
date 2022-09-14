@@ -32,8 +32,8 @@ var models = [
         url: './models/coins/scene.gltf',
         scale: '5 5 5',
         // rotation: '0 180 0',
-        position: '-50 0 0',
-        info: 'v3',
+        position: '-250 0 0',
+        info: 'v4',
     },   
 ];
 
