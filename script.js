@@ -23,7 +23,14 @@ function staticLoadPlaces() {
                 lat: 18.535635705634718,
                 lng: 73.94898885994299              
             },
-        },        
+        },    
+        {
+            name: 'Shrikant',
+            location: {
+                lat: 18.5991724,
+                lng: 73.7701576              
+            },
+        },     
     ];
 }
 
