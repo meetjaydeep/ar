@@ -30,6 +30,6 @@ button {
     position: fixed;
     top: 5%;
     font-size: 1.25em;
-    color: rgb(236, 14, 14);
+    color: white;
     z-index: 999999;
 }
