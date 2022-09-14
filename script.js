@@ -6,8 +6,7 @@ window.onload = () => {
     renderPlaces(places);
 
     this.el.addEventListener('click', function (e) {
-        console.log("event="+e.detail.name); 
-        console.log("eventobject="+e); 
+      alert('clicked');
         
       });
 };
