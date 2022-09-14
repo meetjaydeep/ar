@@ -29,8 +29,8 @@ function staticLoadPlaces() {
         {
             name: 'Outside',
             location: {
-                lat: 18.4543803823649,
-                lng: 73.78771327884505             
+                lat: 18.4543825,
+                lng: 73.7877696
                 // 18.4543803823649,73.78771327884505
             },            
         },
@@ -47,7 +47,7 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './models/coins/scene.gltf',
-        scale: '200 200 200',
+        scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: '',
     },
