@@ -47,8 +47,8 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './models/coins/scene.gltf',
-        scale: '20 20 20',
-        // rotation: '0 180 0',
+        scale: '200 200 200',
+        rotation: '0 180 0',
         info: '',
     },
     // {
