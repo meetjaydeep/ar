@@ -54,7 +54,7 @@ var setModel = function (model, entity) {
     entity.setAttribute('gltf-model', model.url);
 
     const div = document.querySelector('.instructions');
-    div.innerText = model.info +"##"+ model.position + "##"+ model.scale ;
+    // div.innerText = model.info +"##"+ model.position + "##"+ model.scale ;
 };
 
 function renderPlaces(places) {
