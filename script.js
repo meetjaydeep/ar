@@ -9,6 +9,10 @@ window.onload = () => {
       alert('clicked');
         
       });
+
+      this.el.addEventListener("click", () => {
+        alert('clicked1');
+    });
 };
 
 function staticLoadPlaces() {
