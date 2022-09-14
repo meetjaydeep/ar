@@ -8,15 +8,7 @@ window.onload = () => {
 
 function staticLoadPlaces() {
     return [
-        // {
-        //     name: 'Pokèmon',
-        //     location: {
-        //         lat: 18.4543825,
-        //         lng: 73.7877696
-        //         // lat: <your-latitude>,
-        //         // lng: <your-longitude>,
-        //     },
-        // },
+        
         {
             name: 'Outside',
             location: {
@@ -38,9 +30,9 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './models/coins/scene.gltf',
-        // scale: '0.5 0.5 0.5',
+        scale: '5 5 5',
         // rotation: '0 180 0',
-        // position: '0 3 0',
+        position: '0 0 0',
         info: 'v2',
     },   
 ];
@@ -62,7 +54,7 @@ var setModel = function (model, entity) {
     entity.setAttribute('gltf-model', model.url);
 
     const div = document.querySelector('.instructions');
-    div.innerText = model.position + "##"+ model.scale ;
+    div.innerText = model.info +"##"+ model.position + "##"+ model.scale ;
 };
 
 function renderPlaces(places) {
