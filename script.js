@@ -38,10 +38,10 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './models/coins/scene.gltf',
-        scale: '0.5 0.5 0.5',
-        rotation: '0 180 0',
+        // scale: '0.5 0.5 0.5',
+        // rotation: '0 180 0',
         // position: '0 3 0',
-        info: 'v1',
+        info: 'v2',
     },   
 ];
 
@@ -62,7 +62,7 @@ var setModel = function (model, entity) {
     entity.setAttribute('gltf-model', model.url);
 
     const div = document.querySelector('.instructions');
-    div.innerText = model.info;
+    div.innerText = model.position + "##"+ model.scale ;
 };
 
 function renderPlaces(places) {
