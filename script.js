@@ -32,9 +32,9 @@ function staticLoadPlaces() {
 
 var models = [
     {
-        url: './assets/coin/scene.gltf',
+        url: './assets/magnemite/scene.gltf',
         // scale: '2.0 2.0 2.0',
-        rotation: '0 180 0',
+        // rotation: '0 180 0',
         info: 'You found FitCoin',
     },
     {
