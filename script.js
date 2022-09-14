@@ -8,21 +8,21 @@ window.onload = () => {
 
 function staticLoadPlaces() {
     return [
-        {
-            name: 'Pokèmon',
-            location: {
-                lat: 18.4543825,
-                lng: 73.7877696
-                // lat: <your-latitude>,
-                // lng: <your-longitude>,
-            },
-        },
+        // {
+        //     name: 'Pokèmon',
+        //     location: {
+        //         lat: 18.4543825,
+        //         lng: 73.7877696
+        //         // lat: <your-latitude>,
+        //         // lng: <your-longitude>,
+        //     },
+        // },
         {
             name: 'Outside',
             location: {
-                lat: 18.4543685,
-                lng: 73.7876579
-                // lat: <your-latitude>,
+                lat: 18.4543907,
+                lng: 73.7875562
+                // lat: <your-latitude>, ,
                 // lng: <your-longitude>,
             },
         },
