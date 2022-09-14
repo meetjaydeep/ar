@@ -49,7 +49,8 @@ var models = [
         url: './models/coins/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
-        info: '',
+        position: '0 3 0',
+        info: 'T1',
     },
     // {
     //     url: './assets/magnemite/scene.gltf',
